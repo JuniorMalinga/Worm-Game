@@ -8,7 +8,6 @@ Worm Game is a classic arcade-style game built in Java Swing. It features a worm
 - **User Interaction**: Players can control the worm's movement using the W, A, S, D keys.
 - **Scoring System**: Players earn points by collecting coins, with the score displayed on the screen.
 - **Pause and Resume**: The game can be paused and resumed at any time by pressing the SPACE key.
-- **Persistent User Data**: User scores are saved locally, allowing players to track their progress across sessions.
 - **Sound Effects**: The game includes sound effects for collisions, coin pickups, and game over events.
 
 ## How to Play
