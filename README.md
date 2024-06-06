@@ -1,35 +1,42 @@
-Worm Game
-Description
-This project implements a simple snake-like game called "Worm Game" using Java Swing for the graphical user interface. The player controls a worm that moves around the game board to collect coins while avoiding collisions with walls and its own body. The game features sound effects, pause functionality, and a scoring system.
+README.md:
 
-Features
-User Interface: The game has a graphical user interface built using Java Swing components.
-User Data Management: User data such as the username and score are managed and persisted between game sessions using serialization.
-Game Mechanics: Players control the movement of the worm using the W, A, S, D keys. The objective is to collect coins to increase the worm's length and score without colliding with walls or itself.
-Sound Effects: The game includes sound effects for collision, coin pickup, and game over events.
-Pause Functionality: Players can pause and resume the game at any time by pressing the SPACE key.
-How to Play
-Start the Game: Run the WormGame class to launch the game.
-Enter Username: Upon startup, the player is prompted to enter their username. If left blank, the default username "Player" is used.
-Game Controls:
-Use the W, A, S, D keys to move the worm:
-W: Up
-A: Left
-S: Down
-D: Right
-Press SPACE to pause/resume the game.
-Press F to toggle full-screen mode.
-Objective: Collect coins to increase your score. Avoid collisions with walls or the worm's body.
-Game Over: The game ends when the worm collides with a wall or itself. Players can choose to retry or exit the game.
-Dependencies
-Java Development Kit (JDK)
-Java Swing Library
-Installation
-Clone the repository to your local machine.
-Compile the Java files using javac.
-Run the WormGame class to start the game.
-Credits
-Sound effects sourced from Freesound.org and Mixkit.
-Images used in the game obtained from OpenGameArt.org.
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+# Worm Game
+
+Worm Game is a classic arcade-style game built in Java Swing. It features a worm that grows longer as it eats coins while avoiding collisions with walls or itself. The game also includes background music and sound effects for an immersive experience.
+
+## Features
+- **User Interaction**: Players can control the worm's movement using the W, A, S, D keys.
+- **Scoring System**: Players earn points by collecting coins, with the score displayed on the screen.
+- **Pause and Resume**: The game can be paused and resumed at any time by pressing the SPACE key.
+- **Persistent User Data**: User scores are saved locally, allowing players to track their progress across sessions.
+- **Sound Effects**: The game includes sound effects for collisions, coin pickups, and game over events.
+
+## How to Play
+1. Use the W, A, S, D keys to move the worm:
+   - W: Up
+   - A: Left
+   - S: Down
+   - D: Right
+2. Collect coins to grow longer.
+3. Avoid running into the walls or the worm itself.
+4. Press SPACE to pause/resume the game.
+   
+## Installation
+1. Clone the repository to your local machine.
+2. Ensure you have Java Development Kit (JDK) installed.
+3. Compile the Java files using `javac *.java`.
+4. Run the game using `java WormGame`.
+
+## Credits
+- Background Music: [David Fesliyan - Old Video Game Music 1](https://www.fesliyanstudios.com/royalty-free-music/download/old-video-game-music-1/306)
+- Sound Effects: [stormwaveaudio](https://freesound.org/people/stormwaveaudio/sounds/335567/)
+- Coin Pickup Sound: [Mixkit - Eating Coin](https://mixkit.co/free-sound-effects/arcade/eating-coin-595/)
+- Game Over Sound: [Mixkit - Arcade Retro Game Over](https://mixkit.co/free-sound-effects/arcade/arcade-retro-game-over-213/)
+
+## License
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+### Author
+Junior Malinga
